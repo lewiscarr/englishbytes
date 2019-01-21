@@ -2,14 +2,14 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.tituslearning.eigo"
+        id        = "com.tituslearning.englishbytes"
         versionCode = "36000"
         android-versionCode="36000"
         version   = "3.6.0">
-    <name>EIGO</name>
+    <name>English Bytes</name>
 
     <description>
-       An app to help Japanese elementary school teachers to improve their classroom English
+       Enjoy studying English with our new mobile app!
     </description>
 
     <author href="http://tituslearning.com" email="mobile@tituslearning.com">
@@ -136,7 +136,7 @@
     <gap:plugin name="cordova-plugin-badge" source="npm" spec="0.8.8" />
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="4.0.3" />
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" spec="4.3.0">
-        <param name="URL_SCHEME" value="EIGO" />
+        <param name="URL_SCHEME" value="englishbytes" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-device" source="npm" spec="2.0.2" />
     <gap:plugin name="cordova-plugin-file" source="npm" spec="6.0.1" />
@@ -159,7 +159,7 @@
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
 
-    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='EIGO']" mode="merge">
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='englishbytes']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
     </edit-config>
 
