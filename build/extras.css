@@ -40278,10 +40278,27 @@ ion-app.app-root core-course-format .core-format-progress-list .core-course-thum
     height:200px;
 }
 
+
+ion-app.app-root core-course-format .core-course-thumb {
+    display: block!important;
+}
+
+.core-course-thumb.ng-star-inserted {
+    display: block!important;
+}
+
 .core-course-thumb.ng-star-inserted {
     display: block!important;
     height: 200px;
 }
+
+.core-course-thumb {
+    display: block!important;
+    }
+    
+    ion-app.app-root core-course-format .core-course-thumb img {
+    display: none;
+    }
 
 .select-text.ng-star-inserted {
     color: #084E8A;
