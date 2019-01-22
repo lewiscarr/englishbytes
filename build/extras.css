@@ -40299,6 +40299,11 @@ ion-app.app-root core-course-format .core-course-thumb {
     ion-app.app-root core-course-format .core-course-thumb img {
     display: none;
     }
+    
+    
+    .core-course-thumb.ng-star-inserted {
+    display: block!important;
+}
 
 .select-text.ng-star-inserted {
     color: #084E8A;
