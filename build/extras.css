@@ -40190,13 +40190,24 @@ page-core-login-credentials .box {
 page-core-courses-dashboard .content-md {
 
 background-color: #084E8A;
-    background: url("../assets/img/EB_available_courses.jpg") no-repeat center center fixed;
+    background: url("../assets/img/EB_site_home.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+
+
+page-core-courses-available-courses .content-md {
+
+background-color: #084E8A;
+    background: url("../assets/img/EB_available_courses.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 
 
@@ -40210,14 +40221,22 @@ page-addon-calendar-list.ion-page.ng-star-inserted.show-page ion-content.has-ref
 }
 
 
+
+
+
+page-addon-notifications-list .core-empty-box .core-empty-box-content {
+color:#fff
+background: #084E8A;
+}
+
 .safe-padding-horizontal.row.ng-star-inserted {
     background: #B4E1FA;
 }
 
 
 ion-app.app-root.md .button-md-light {
-    color: #fff;
-    background: #084E8A;
+    color: #3E4E57;
+    background: #B4E1FA;
     border: none;
 }
 
@@ -40225,6 +40244,10 @@ ion-app.app-root.md .button-md-light {
 
 ion-app.app-root core-course-format button.core-button-select .core-section-selector-text {
 color: #3E4E57;
+}
+
+ion-icon.icon.icon-md.ion-md-arrow-dropdown {
+    color: #3E4E57;
 }
 
 
