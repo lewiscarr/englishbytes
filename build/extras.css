@@ -27244,8 +27244,8 @@ ion-navbar.toolbar {
 }
 
 .toolbar-background-md {
-    border-color: #00848E;
-    background: #00848E;
+    border-color: #007ACE;
+    background: #007ACE;
 }
 
 .footer-md::before,
@@ -30218,7 +30218,7 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-success .toolbar-background-md {
-    background: #5e8100
+    background: #007ACE;
 }
 
 .toolbar-md-success .bar-button-clear-md,
@@ -30609,7 +30609,7 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-info .toolbar-background-md {
-    background: #007ACE
+    background: #007ACE;
 }
 
 .toolbar-md-info .bar-button-clear-md,
@@ -33697,7 +33697,7 @@ ion-navbar.toolbar {
 }
 
 .toolbar-wp-success .toolbar-background-wp {
-    background: #5e8100
+    background: #007ACE;
 }
 
 .toolbar-wp-success .bar-button-clear-wp,
@@ -34052,7 +34052,7 @@ ion-navbar.toolbar {
 }
 
 .toolbar-wp-info .toolbar-background-wp {
-    background: #007ACE
+    background: #007ACE;
 }
 
 .toolbar-wp-info .bar-button-clear-wp,
@@ -40184,9 +40184,21 @@ page-core-login-credentials .box {
     color: #fff;
 }
 
-ion-content.has-refresher>.scroll-content {
-    background-color: #084E8A;
+
+
+
+page-core-courses-dashboard .content-md {
+
+background-color: #084E8A;
+    background: url("../assets/img/EB_available_courses.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
+
+
 
 
 page-addon-calendar-list.ion-page.ng-star-inserted.show-page ion-content.has-refresher>.scroll-content {
@@ -40199,7 +40211,7 @@ page-addon-calendar-list.ion-page.ng-star-inserted.show-page ion-content.has-ref
 
 
 .safe-padding-horizontal.row.ng-star-inserted {
-    background: #084E8A;
+    background: #B4E1FA;
 }
 
 
@@ -40207,6 +40219,12 @@ ion-app.app-root.md .button-md-light {
     color: #fff;
     background: #084E8A;
     border: none;
+}
+
+
+
+ion-app.app-root core-course-format button.core-button-select .core-section-selector-text {
+color: #3E4E57;
 }
 
 
